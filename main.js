@@ -133,10 +133,17 @@ var myString = "I Love Progrmming Languages",
 
 console.log(mySplit);
 */
-
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.charAt(2);
+
+console.log(mySplit);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.charCodeAt(2);
 
 console.log(mySplit);
 
