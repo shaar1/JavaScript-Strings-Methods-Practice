@@ -37,8 +37,38 @@ console.log(typeof (myString));
 console.log(typeof (myNewString));
 */
 
+/*
 var myString = "I Love Progrmming Languages",
 
 mySearch = myString.indexOf("Love");
 
 console.log(mySearch);
+*/
+
+/*
+var myString = "I Love Progrmming Languages",
+
+mySearch = myString.indexOf("L", 10);
+
+console.log(mySearch);
+*/
+
+/*
+var myString = "I Love Progrmming Languages",
+
+mySearch = myString.lastIndexOf("L", 10);
+
+console.log(mySearch);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+mySearch = myString.search("L");
+
+console.log(mySearch);
+
+
+
+
+
+
