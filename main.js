@@ -140,12 +140,21 @@ var myString = "I Love Progrmming Languages",
 
 console.log(mySplit);
 */
-
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.charCodeAt(2);
 
 console.log(mySplit);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.replace("L", "M");
+
+console.log(mySplit); 
+
+
 
 
 
