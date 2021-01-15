@@ -27,6 +27,7 @@ console.log(typeof (myString));
 console.log(typeof (myNewString));
 */
 
+/*
 var myString = 120,
 
     myNewString = String(myString);
@@ -34,8 +35,10 @@ var myString = 120,
 console.log(typeof (myString));
 
 console.log(typeof (myNewString));
+*/
 
+var myString = "I Love Progrmming Languages",
 
+mySearch = myString.indexOf("Love");
 
-
-
+console.log(mySearch);
