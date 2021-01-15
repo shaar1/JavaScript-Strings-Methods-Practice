@@ -147,12 +147,21 @@ var myString = "I Love Progrmming Languages",
 
 console.log(mySplit);
 */
-
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.replace("L", "M");
 
 console.log(mySplit); 
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.concat(" Too Much");
+
+console.log(mySplit); 
+
+
 
 
 
