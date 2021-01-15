@@ -97,8 +97,24 @@ mySplit = myString.slice(2, 6);
 
 console.log(mySplit);
 */
+/*
 var myString = "I Love Progrmming Languages",
 
-mySplit = myString.slice(2, 7);
+    mySplit = myString.slice(2, 7);
 
 console.log(mySplit);
+*/
+/*
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.substr(2);
+
+console.log(mySplit);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.substr(2, 10);
+
+console.log(mySplit);
+
