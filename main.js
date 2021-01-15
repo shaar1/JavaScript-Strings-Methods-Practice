@@ -170,17 +170,41 @@ console.log(mySplit);
 */
 
 
-
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.concat(" Too Much").toUpperCase();
 
 console.log(mySplit); 
+*/
+/*
+var myString = "I Love Progrmming Languages",
 
+    mySplit = myString.concat(" Too Much").toUpperCase().split("");
 
+console.log(mySplit);
+*/
+/*
+var myString = "I Love Progrmming Languages",
 
+    mySplit = myString.concat(" Too Much").toUpperCase().split(" ", 3);
 
+console.log(mySplit);
 
+*/
+/*
+var myString = "      I Love Progrmming Languages",
+
+    mySplit = myString.trim();
+
+console.log(mySplit);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.link("htpp://www.google.com");
+
+console.log(mySplit);
 
 
 
