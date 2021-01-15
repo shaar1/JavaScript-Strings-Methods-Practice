@@ -112,9 +112,28 @@ var myString = "I Love Progrmming Languages",
 console.log(mySplit);
 */
 
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.substr(2, 10);
 
 console.log(mySplit);
+*/
+/*
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.substr(-20);
+
+console.log(mySplit);
+*/
+
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.substring(2, 10);
+
+console.log(mySplit);
+
+
+
+
 
