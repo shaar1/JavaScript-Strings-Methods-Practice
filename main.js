@@ -154,13 +154,19 @@ var myString = "I Love Progrmming Languages",
 
 console.log(mySplit); 
 */
-
+/*
 var myString = "I Love Progrmming Languages",
 
     mySplit = myString.concat(" Too Much");
 
 console.log(mySplit); 
+*/
 
+var myString = "I Love Progrmming Languages",
+
+    mySplit = myString.concat(" Too Much").toLowerCase();
+
+console.log(mySplit); 
 
 
 
