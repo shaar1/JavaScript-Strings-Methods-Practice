@@ -83,13 +83,22 @@ mySplit = myString.split(" ");
 console.log(mySplit);
 */
 
-
+/*
 var myString = "I Love Progrmming Languages",
 
 mySplit = myString.split("", 4);
 
 console.log(mySplit);
+*/
+/*
+var myString = "I Love Progrmming Languages",
 
+mySplit = myString.slice(2, 6);
 
+console.log(mySplit);
+*/
+var myString = "I Love Progrmming Languages",
 
+mySplit = myString.slice(2, 7);
 
+console.log(mySplit);
