@@ -60,14 +60,35 @@ mySearch = myString.lastIndexOf("L", 10);
 
 console.log(mySearch);
 */
-
+/*
 var myString = "I Love Progrmming Languages",
 
 mySearch = myString.search("L");
 
 console.log(mySearch);
+*/
+
+/*
+var myString = "I Love Progrmming Languages",
+
+mySplit = myString.split("");
+
+console.log(mySplit);
+*/
+/*
+var myString = "I Love Progrmming Languages",
+
+mySplit = myString.split(" ");
+
+console.log(mySplit);
+*/
 
 
+var myString = "I Love Progrmming Languages",
+
+mySplit = myString.split("", 4);
+
+console.log(mySplit);
 
 
 
